@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clMain"
+    android:layout_width="match_parent"
+    android:background="@color/window_background"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rlDeveloper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/ablDeveloper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbarDeveloper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:minHeight="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:titleMarginTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/tvHeaderDeveloper"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/developer"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+
+                </android.support.v7.widget.Toolbar>
+            </android.support.design.widget.AppBarLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:layout_below="@+id/rlDeveloper">
+
+            <LinearLayout
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civProfile"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/developer"
+                        android:scaleType="centerCrop"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlExp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlProfile"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dev_name"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/tvProfession"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profession"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/tvName"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/tvLinkedin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/linkedin"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/tvProfession"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/tvCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/country"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/tvLinkedin"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlExp">
+
+                    <TextView
+                        android:id="@+id/tvVersion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:paddingBottom="5dp"
+                        android:gravity="center" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

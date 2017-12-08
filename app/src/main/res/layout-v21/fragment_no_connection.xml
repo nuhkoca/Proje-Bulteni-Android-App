@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="no_conn"
+    tools:context="com.endroidteam.projebulteni.fragments.NoConnectionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+   <ImageView
+       android:id="@+id/ivNoConn"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:src="@drawable/no_connection"
+       android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvNoConn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server_error_frag"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/ivNoConn"
+        />
+    </RelativeLayout>
+
+
+</FrameLayout>

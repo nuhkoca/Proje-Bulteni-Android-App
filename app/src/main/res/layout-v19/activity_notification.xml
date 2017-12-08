@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rlNotif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/ablNotif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbarNotif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:minHeight="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:titleMarginTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/tvHeaderNotif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/notify_sett"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"/>
+
+                </android.support.v7.widget.Toolbar>
+            </android.support.design.widget.AppBarLayout>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlNotif"
+        >
+
+    <TextView
+        android:id="@+id/tvNotifText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="15sp"
+        android:layout_alignParentStart="true"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp"
+        android:checked="true"
+        android:paddingEnd="15dp"
+        android:paddingStart="5dp"
+        android:layout_alignParentEnd="true"
+        app:showText="false"
+        android:theme="@style/Color1SwitchStyle"/>
+
+        <View
+            android:layout_below="@+id/switch_compat"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/tvNotifExp"
+            android:layout_below="@+id/switch_compat"
+            android:layout_marginTop="35dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/notif_text"/>
+
+        </RelativeLayout>
+
+</RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>

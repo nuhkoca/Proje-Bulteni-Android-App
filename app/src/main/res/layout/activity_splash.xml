@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.endroidteam.projebulteni.activities.SplashActivity">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/kbvImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:soundEffectsEnabled="true"
+        android:saveEnabled="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/app_cright"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

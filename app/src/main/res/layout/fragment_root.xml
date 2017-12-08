@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flRootFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.endroidteam.projebulteni.fragments.RootFragment">
+
+    <FrameLayout
+        android:id="@+id/root_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+</FrameLayout>

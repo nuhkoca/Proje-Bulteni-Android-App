@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.endroidteam.projebulteni.fragments.NoDataFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivNodata"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/no_data"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_data_found"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/ivNodata"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

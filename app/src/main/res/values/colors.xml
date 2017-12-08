@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="material_orange">#FFFF5722</color>
+    <color name="material_text_color">#DE000000</color>
+    <color name="window_background">#f9f9f9</color>
+    <color name="snackbar_text_color">#00E5FF</color>
+    <color name="hint_color">#1A237E</color>
+</resources>

@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Proje Bülteni</string>
+    <string name="click_for_next">Detaylar için tıklayınız</string>
+    <string name="settings">Ayarlar</string>
+    <string name="projects">Projeler</string>
+    <string name="contact_us">İletişim</string>
+    <string name="about">Hakkında</string>
+    <string name="font_error">Font kullanımı sırasında bir hata oluştu</string>
+    <string name="refresh">Yenile</string>
+    <string name="no_active_connection">Aktif bir bağlantı bulunamadı</string>
+    <string name="apply_action">BAŞVUR</string>
+    <string name="share_action">PAYLAŞ</string>
+    <string name="hint_email">email adresiniz</string>
+    <string name="hint_message">her türlü şikayet, öneri ve yorumlarınızı buradan bize iletebilirsiniz</string>
+
+    <string name="spinner_advice">Öneri</string>
+    <string name="spinner_compliant">Şikayet</string>
+    <string name="spinner_thanks">Teşekkür</string>
+    <string name="spinner_help">Yardım</string>
+    <string name="spinner_other">Diğer</string>
+
+    <string name="send_text">Gönder</string>
+
+    <string name="err_msg_email">Geçerli bir email adresi giriniz</string>
+    <string name="err_msg_message">Mesaj alanını boş bırakmayınız</string>
+    <string name="send_message_title">Mesaj gönderildi</string>
+    <string name="send_message_body">Mesajınız gönderildi. En yakın zamanda sizinle iletişime geçeceğiz.</string>
+    <string name="ok_button">OK</string>
+    <string name="send_message_title_error">Mesaj gönderilemedi</string>
+    <string name="send_message_body_error">Mesajınız gönderilirken bir hata oluştu. Gerekli alanları doldurunuz ya da tekrar deneyiniz.</string>
+    <string name="feedback">Geribildirim</string>
+    <string name="exit">Çıkış</string>
+    <string name="feedback_text">Geribildiriminiz bizim için çok önemli. Lütfen bu uygulama ve Proje Bülteni hizmetleri hakkındaki görüşlerinizi bizimle paylaşın.</string>
+    <string name="exit_title">Çıkış</string>
+    <string name="exit_body">Uygulamadan çıkmak istediğinize emin misiniz?</string>
+    <string name="yes_button">Evet</string>
+    <string name="no_button">Hayır</string>
+    <string name="back_pressed_message">Çıkmak için geri tuşuna tekrar basın</string>
+    <string name="noproject_openinternet">Veriler yüklenemedi. Lütfen internet bağlantınızı kontrol ediniz.</string>
+
+    <string name="application_title">Başvuru</string>
+    <string name="application_msg">Başvurunun CV ve Motivasyon mektubu ile birlikte aşağıdaki adrese yapılması gerekmektedir:</string>
+    <string name="copy_to_clipboard_button">Panoya Kopyala</string>
+    <string name="copied">Panoya kopyalandı</string>
+    <string name="licence">Lisans</string>
+    <string name="developer">Geliştirici</string>
+    <string name="findusonfacebook">Bizi Facebook\'ta takip edin</string>
+    <string name="findusoninstagram">Bizi Instagram\'da takip edin</string>
+    <string name="findusontwitter">Bizi Twitter\'da takip edin</string>
+    <string name="crew">Ekibimiz</string>
+    <string name="copyright">Proje Bülteni © 2016</string>
+
+    <string name="project_detail">Detay</string>
+
+    <string name="server_error">Server kaynaklı bir hata meydana geldi. Lütfen birkaç dakika sonra tekrar deneyiniz.</string>
+    <string name="uptodate_projects">Güncel Projeler</string>
+    <string name="server_error_frag">servera bağlanılırken bir hata oluştu, internet bağlantınızı kontrol ediniz.</string>
+    <string name="dev_name">Nuh Koca from ENdroid Team</string>
+    <string name="profession">Android Developer</string>
+    <string name="linkedin">linkedin.com/in/nuhkoca</string>
+    <string name="country">Germany</string>
+    <string name="no_data_found">Üzgünüz, şuanda göstereceğimiz bir proje yok. Olduğunda haber edeceğiz.</string>
+    <string name="asset_error">Dosya okunurken bir hata meydana geldi. Tekrar deneyiniz.</string>
+
+
+    <!-- Crew Names -->
+    <string name="malp">Muhittin Alp</string>
+    <string name="devname">Nuh Koca</string>
+    <string name="isigirci">İbrahim Sığırcı</string>
+    <string name="yaslantas">Yeşim Aslantaş</string>
+    <string name="hdogan">Hüseyin Doğan</string>
+    <string name="ierbay">İbrahim Erbay</string>
+    <string name="dozdemir">Duygu Özdemir</string>
+    <string name="egur">Ebrar Gür</string>
+    <string name="bdemircioglu">Burcu Demircioğlu</string>
+    <string name="adundar">Abdulhakim Dündar</string>
+    <string name="oertan">Onuralp Ertan</string>
+    <string name="tarpaci">Tuba Arpacı</string>
+    <string name="gkarakaya">Goncahan Karakaya</string>
+    <string name="aonder">Açelya Önder</string>
+
+
+    <!-- Crew Duties -->
+    <string name="kurucu">Kurucu</string>
+    <string name="dev">Android Geliştiricisi</string>
+    <string name="gkor">Genel Koordinator</string>
+    <string name="pyon">Proje Yöneticisi</string>
+    <string name="psor">Proje Sorumlusu</string>
+    <string name="puyggel">Proje Uygulama ve Geliştirme Uzmanı</string>
+    <string name="smedya">Sosyal Medya Koordinatörü</string>
+    <string name="smedekipüyesi">Sosyal Medya Ekip Üyesi</string>
+    <string name="kuriltan">Kurumsal İletişim ve Tanıtım Koordinatörü</string>
+    <string name="orgkor">Organizasyon Koordinatörü</string>
+    <string name="ilkor">İller Koordinatörü</string>
+    <string name="editor">Editör</string>
+    <string name="icek">İçerik Ekibi Sorumlusu</string>
+    <string name="projuyg">Proje Uygulama Uzmanı</string>
+    <string name="send_now">Şimdi Gönder</string>
+    <string name="notify_sett">Bildirim Ayarları</string>
+    <string name="not_open">Bildirimler Açık</string>
+    <string name="not_close">Bildirimler Kapalı</string>
+
+    <string name="google_app_id">664739247723</string>
+    <string name="app_cright">Proje Bülteni © 2016 - Tüm hakları saklıdır.</string>
+    <string name="clear_cache">Önbelleği Temizle</string>
+    <string name="warning">Dikkat</string>
+    <string name="cache_message">Önbelleği temizlemek bütün görselleri siler ve uygulama bir sonraki açılışta tekrar yükler. Önbelleği temizlemek istediğinize emin misiniz?</string>
+    <string name="cleaned_cache">Önbellek temizlendi. Değişiklikler için programı yeniden başlatmalısınız.</string>
+    <string name="notif_text">* Bildirimleri kapattığın zaman artık Proje Bülteni\'nden en son proje bildirimlerini alamayacaksın. İstersen tekrar aktif hala getirebilir, bildirimleri almaya devam edebilirsin. Bu ayarı istediğin zaman değiştirebilirsin..\n\n ** Değişikliklerin aktif olması birkaç dakika sürebilir.</string>
+    <string name="volley_error">Sistem kaynaklı bir sorun meydane geldi. Lütfen birkaç dakika sonra tekrar deneyiniz.</string>
+    <string name="check_for_update">Güncellemeleri Kontrol Et</string>
+    <string name="update_link">https://play.google.com/store/apps/details?id=com.endroidteam.projebulteni</string>
+    <string name="team_title">Takım</string>
+    <string name="social_media_title">Sosyal Medya</string>
+    <string name="instant_notif_title">Anlık İleti Bildirimleri</string>
+    <string name="cache_title">Önbellek</string>
+    <string name="update_title">Güncelleme</string>
+    <string name="crew_text_title">sizlere en iyi hizmeti verebilmek için gece gündüz çalışan ekibimiz :)</string>
+    <string name="bug_report">Hata Bildir</string>
+</resources>
